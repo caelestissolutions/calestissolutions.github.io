@@ -1,29 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Caelestis</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="assets/tailored-solutions.webp" type="image/webp">
-</head>
-<body class="bg-gray-100 text-gray-900 font-sans leading-relaxed">
-  <div class="max-w-4xl mx-auto px-4 py-10">
-    <nav class="mb-10 flex gap-6 text-blue-600 font-semibold">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="career.html">Career</a>
-      <a href="contact.html">Contact</a>
-      <a href="blog.html">Blog</a>
-    </nav>
-    <article class="prose prose-gray">
-      <h1>Welcome to Caelestis</h1>
-      <p>Empowering your vision with tailored solutions. Discover how our bespoke approach to software development can help your business grow.</p>
-      <a href="post.html" class="inline-block mt-4 text-blue-600 hover:underline">Read our full post →</a>
-      <img src="assets/tailored-solutions.webp" alt="Empowering visual" class="mt-6 rounded shadow">
-    </article>
-  </div>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caelestis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/tailored-solutions.webp" type="image/webp" />
+    <meta
+      name="description"
+      content="Unlock Your Ideas Into Reality With Our Expert Development Team"
+    />
+    <meta property="og:site_name" content="Caelestis" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Caelestis" />
+    <meta
+      property="og:description"
+      content="Unlock Your Ideas Into Reality With Our Expert Development Team"
+    />
+    <meta property="og:image" content="assets/caelestis-header.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Caelestis" />
+    <meta
+      name="twitter:description"
+      content="Unlock Your Ideas Into Reality With Our Expert Development Team"
+    />
+    <meta name="twitter:image" content="assets/caelestis-header.webp" />
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation -->
+    <header
+      class="py-6 px-4 flex items-center justify-between max-w-7xl mx-auto"
+    >
+      <div class="flex items-center space-x-8">
+        <a href="index.html" class="text-2xl font-bold text-gray-900"
+          >Caelestis</a
+        >
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="text-gray-600 hover:text-gray-900"
+            >Home</a
+          >
+          <a href="about.html" class="text-gray-600 hover:text-gray-900"
+            >About</a
+          >
+          <a href="services.html" class="text-gray-600 hover:text-gray-900"
+            >Services</a
+          >
+          <a href="career.html" class="text-gray-600 hover:text-gray-900"
+            >Career</a
+          >
+          <a href="contact.html" class="text-gray-600 hover:text-gray-900"
+            >Contact</a
+          >
+          <a href="blog.html" class="text-gray-600 hover:text-gray-900">Blog</a>
+        </nav>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button class="p-2 text-gray-600 hover:text-gray-900">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Sign in</a>
+        <a
+          href="#"
+          class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors"
+          >Subscribe</a
+        >
+      </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="relative">
+      <img
+        src="assets/caelestis-header.webp"
+        alt="Caelestis"
+        class="w-full h-[500px] object-cover"
+      />
+      <div
+        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center"
+      >
+        <div class="text-center text-white max-w-2xl px-4">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">
+            Unlock Your Ideas Into Reality With Our Expert Development Team
+          </h1>
+          <form class="flex gap-2 max-w-md mx-auto">
+            <input
+              type="email"
+              placeholder="jamie@example.com"
+              class="flex-1 px-6 py-3 rounded-full border-0 focus:ring-2 focus:ring-blue-500"
+            />
+            <button
+              type="submit"
+              class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4">
+      <!-- Latest Posts -->
+      <section class="py-12">
+        <h2 class="text-2xl font-bold mb-8">Latest</h2>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden">
+          <a
+            href="blog/empowering-your-vision-with-tailored-solutions-475a61ba8cb1.html"
+            class="block"
+          >
+            <img
+              src="assets/tailored-solutions.webp"
+              alt="Tailored Solutions"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">
+                Empowering Your Vision with Tailored Solutions
+              </h3>
+              <p class="text-gray-600 mb-4">
+                At Caelestis, we believe in the transformative power of
+                technology as a conduit for realizing your business dreams. With
+                an unwavering commitment to excellence, we craft bespoke
+                software solutions that align perfectly with your unique goals.
+              </p>
+              <div class="flex items-center text-sm text-gray-500">
+                <span>By Caelestis</span>
+                <span class="mx-2">•</span>
+                <time datetime="2023-08-16">Aug 16, 2023</time>
+              </div>
+            </div>
+          </a>
+        </article>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-12 border-t">
+        <div class="text-center">
+          <h2 class="text-2xl font-bold mb-4">Caelestis</h2>
+          <p class="text-gray-600">
+            Unlock Your Ideas Into Reality With Our Expert Development Team
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
